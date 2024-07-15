@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+}
+table tbody ,th ,tr ,td {
+    border: 2px solid #b3b3b383;
+    border-collapse: collapse;
+
+}
+table{
+    margin-bottom: 30px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.table td ,th ,input ,select{
+    padding: 10px;
+}
+.submit{
+    background-color: #2dcf48;
+    border: none;
+    border-radius: 20px;
+}
+.submit:hover ,.submit:active{
+    background-color: #aad630;
+}
+.img{
+    background-image: url(../images/boy.png);
+    background-size: cover;
+    width: 150px;
+    background-position: center;
+}
+.result td{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.list2{
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 30px rgb(73, 73, 73);
+    padding: 5px 0;
+    z-index: 3;
+    font-size:x-large;
+    border-radius: 20px;
+
+}
+.list2 a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    border-radius: 20px;
+
+}
+.footer{
+    text-align: center;
+    margin: 30px;
+    margin-top: 100px;
+}
+.nav{
+    text-align: right;
+    margin-right: 17%;
+    margin-top: 30px;
+}
+.nav a{
+    padding: 10px;
+    background-color: #02B5EC;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}

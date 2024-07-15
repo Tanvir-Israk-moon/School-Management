@@ -1,0 +1,86 @@
+.list_main{
+    display: flex;
+}
+main{
+    margin: 20px 40px;
+    flex-basis: 620px;
+}
+.add h1{
+    color: #0794ff;
+    display: inline-block;
+}
+.add p{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.427);
+    font-weight: 700;
+}
+form b{
+    display: block;
+    margin: 25px 0 1px 0;
+}
+form input {
+    width: 600px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.249);
+    border-radius: 5px;
+    font-size: medium;
+}
+select{
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.249);
+    border-radius: 5px;
+}
+.select_file{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.select{
+    flex-basis: 290px;
+}
+.select select{
+    width: 290px;
+}
+.file_area{
+    flex-basis: 290px;
+}
+.file{
+    width: 290px;
+    padding: 6px;
+}
+.submit{
+    width: 250px;
+    text-align: center;
+    background-color: #0794ff;
+    color: #fff;
+}
+.footer{
+    text-align:center;
+    margin:50px;
+}
+.alert {
+   position: relative;
+   padding: 0.75rem 1.25rem;
+   margin-bottom: 1rem;
+   border: 1px solid transparent;
+   border-radius: 0.25rem;
+}
+.alert .close {
+   position: absolute;
+   right: 20px;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+           transform: translateY(-50%);
+   color: #F70000;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+.alert.danger {
+   color: #721c24;
+   background-color: #f8d7da;
+   border-color: #f5c6cb;
+}

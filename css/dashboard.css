@@ -1,0 +1,139 @@
+.list_main{
+    display: flex;
+}
+.status{
+    width: 100%;
+    margin: 20px;
+}
+.status header h2 {
+    display: inline-block;
+    color: #0794ff;
+}
+.status header p{
+    font-weight: 600;
+    opacity: 0.5;
+    display: inline-block;
+}
+.status header i{
+    margin-right: 7px; 
+    color: #0794ff; 
+}
+.mini_dash{
+    margin-top: 10px;
+    background-color: white;
+    padding: 7px;
+}
+.mini_dash i{
+    margin-right: 5px;
+}
+.card{
+    display: flex;
+}
+.card1{
+    
+    flex-basis: 40%;
+    background-color: #0794FF;
+    margin: 10px;
+    box-shadow: 1px 1px 10px rgb(104, 104, 104);
+}
+.card1:hover{
+    box-shadow: 10px 10px 30px rgb(104, 104, 104);
+    
+}
+.view_all_users{
+    display: flex;  
+    align-items: center; 
+    background-color: #0794FF;
+}
+.view_all_users_icon{
+    flex-basis: 50%;
+    background-color: #0794FF;
+    padding: 30px;
+}
+.view_all_users_icon i{
+    background-color: #0794FF;
+    font-size: 130px;
+    color: #fff;
+}
+.users_count{
+    flex-basis: 50%;
+    background-color: #0794FF;
+    font-size: 150%;
+    margin-top: 30px;
+    padding: 30px;
+}
+.users_count h1 ,.users_count h5{
+    color: #fff;
+    text-align: center;
+    background-color: #0794FF;
+
+}
+.users_btn{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #0794FF;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.users_btn_txt {
+    background-color: #fff;
+
+}
+.users_btn_icon i{
+    color: #fff;
+    padding: 15px;
+    background-color: #0794FF;
+    border-radius: 50%;
+}
+.entries h1{
+    margin-bottom: 30px;
+}
+section{
+    margin: 20px;
+}
+.entries_search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.search input{
+    outline: none;
+    border: 2px solid #0794FF;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 20px;
+}
+.entries select{
+    width: 70px;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 30px;
+}
+.table td{
+    border: 2px solid rgba(146, 146, 146, 0.377);
+    padding: 40px;
+    font-size: 20px;
+
+}
+.table td:last-child{
+    padding: 0;
+}
+
+table img{
+    height: 150px;
+}
+.table{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    text-align:center;
+    margin:50px;
+}
